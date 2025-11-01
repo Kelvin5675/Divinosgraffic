@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - KSBold</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="../index.html"><h2>KSBold</h2></a>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link" data-pt="Início" data-en="Home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#services" class="nav-link" data-pt="Serviços" data-en="Services">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link active" data-pt="Produtos" data-en="Products">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link" data-pt="Galeria" data-en="Gallery">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#team" class="nav-link" data-pt="Equipe" data-en="Team">Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link" data-pt="Contato" data-en="Contact">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="tracking.html" class="nav-link" data-pt="Rastreio" data-en="Tracking">Rastreio</a>
+                    </li>
+                </ul>
+                <div class="nav-extras">
+                    <div class="language-selector">
+                        <button id="lang-toggle" class="lang-btn">
+                            <span id="current-lang">PT</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="lang-dropdown" id="lang-dropdown">
+                            <button data-lang="pt">Português</button>
+                            <button data-lang="en">English</button>
+                        </div>
+                    </div>
+                    <div class="hamburger" id="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-pt="Nossos Produtos" data-en="Our Products">Nossos Produtos</h1>
+            <p data-pt="Descubra nossa coleção completa de produtos e serviços personalizados" data-en="Discover our complete collection of personalized products and services">
+                Descubra nossa coleção completa de produtos e serviços personalizados
+            </p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all" data-pt="Todos" data-en="All">Todos</button>
+                <button class="filter-btn" data-filter="baby" data-pt="Bebês" data-en="Babies">Bebês</button>
+                <button class="filter-btn" data-filter="adult" data-pt="Adultos" data-en="Adults">Adultos</button>
+                <button class="filter-btn" data-filter="frames" data-pt="Quadros" data-en="Frames">Quadros</button>
+                <button class="filter-btn" data-filter="photos" data-pt="Fotos" data-en="Photos">Fotos</button>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products-grid">
+                <!-- Baby Products -->
+                <div class="product-card" data-category="baby">
+                    <div class="product-image">
+                        <img src="../images/baby_feet_1.jpg" alt="Edição de Pezinhos">
+                        <div class="product-overlay">
+                            <a href="product-detail.html?id=1" class="btn btn-primary" data-pt="Ver Detalhes" data-en="View Details">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 data-pt="Edição de Pezinhos de Bebê" data-en="Baby Footprint Editing">Edição de Pezinhos de Bebê</h3>
+                        <p data-pt="Transforme os pezinhos do seu bebê em arte" data-en="Transform your baby's footprints into art">
+                            Transforme os pezinhos do seu bebê em arte
+                        </p>
+                        <div class="product-price">
+                            <span class="price">500 MT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="baby">
+                    <div class="product-image">
+                        <img src="../images/baby_articles_1.jpg" alt="Artigos para Bebê">
+                        <div class="product-overlay">
+                            <a href="product-detail.html?id=2" class="btn btn-primary" data-pt="Ver Detalhes" data-en="View Details">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 data-pt="Artigos para Bebê" data-en="Baby Items">Artigos para Bebê</h3>
+                        <p data-pt="Produtos únicos e personalizados para bebês" data-en="Unique and personalized products for babies">
+                            Produtos únicos e personalizados para bebês
+                        </p>
+                        <div class="product-price">
+                            <span class="price">300 MT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Adult Products -->
+                <div class="product-card" data-category="adult">
+                    <div class="product-image">
+                        <img src="../images/adult_articles_1.webp" alt="Artigos para Adultos">
+                        <div class="product-overlay">
+                            <a href="product-detail.html?id=3" class="btn btn-primary" data-pt="Ver Detalhes" data-en="View Details">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 data-pt="Artigos para Adultos" data-en="Adult Items">Artigos para Adultos</h3>
+                        <p data-pt="Produtos personalizados para adultos" data-en="Personalized products for adults">
+                            Produtos personalizados para adultos
+                        </p>
+                        <div class="product-price">
+                            <span class="price">400 MT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frames -->
+                <div class="product-card" data-category="frames">
+                    <div class="product-image">
+                        <img src="../images/custom_frame_1.png" alt="Quadros Personalizados">
+                        <div class="product-overlay">
+                            <a href="product-detail.html?id=4" class="btn btn-primary" data-pt="Ver Detalhes" data-en="View Details">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 data-pt="Quadros Personalizados A5" data-en="Custom Frames A5">Quadros Personalizados A5</h3>
+                        <p data-pt="Quadros únicos em tamanho A5" data-en="Unique frames in A5 size">
+                            Quadros únicos em tamanho A5
+                        </p>
+                        <div class="product-price">
+                            <span class="price">250 MT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="frames">
+                    <div class="product-image">
+                        <img src="../images/custom_frame_1.png" alt="Quadros Personalizados">
+                        <div class="product-overlay">
+                            <a href="product-detail.html?id=5" class="btn btn-primary" data-pt="Ver Detalhes" data-en="View Details">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 data-pt="Quadros Personalizados A4" data-en="Custom Frames A4">Quadros Personalizados A4</h3>
+                        <p data-pt="Quadros únicos em tamanho A4" data-en="Unique frames in A4 size">
+                            Quadros únicos em tamanho A4
+                        </p>
+                        <div class="product-price">
+                            <span class="price">350 MT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="frames">
+                    <div class="product-image">
+                        <img src="../images/custom_frame_1.png" alt="Quadros Personalizados">
+                        <div class="product-overlay">
+                            <a href="product-detail.html?id=6" class="btn btn-primary" data-pt="Ver Detalhes" data-en="View Details">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 data-pt="Quadros Personalizados A3" data-en="Custom Frames A3">Quadros Personalizados A3</h3>
+                        <p data-pt="Quadros únicos em tamanho A3" data-en="Unique frames in A3 size">
+                            Quadros únicos em tamanho A3
+                        </p>
+                        <div class="product-price">
+                            <span class="price">500 MT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Photos -->
+                <div class="product-card" data-category="photos">
+                    <div class="product-image">
+                        <img src="../images/full_photo_custom_1.jpg" alt="Foto Inteira Personalizada">
+                        <div class="product-overlay">
+                            <a href="product-detail.html?id=7" class="btn btn-primary" data-pt="Ver Detalhes" data-en="View Details">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 data-pt="Foto Inteira Personalizada" data-en="Full Custom Photo">Foto Inteira Personalizada</h3>
+                        <p data-pt="Composição fotográfica completa e única" data-en="Complete and unique photographic composition">
+                            Composição fotográfica completa e única
+                        </p>
+                        <div class="product-price">
+                            <span class="price">600 MT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>KSBold</h3>
+                        <p data-pt="Criatividade que transforma momentos especiais em memórias eternas" data-en="Creativity that transforms special moments into eternal memories">
+                            Criatividade que transforma momentos especiais em memórias eternas
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 data-pt="Links Rápidos" data-en="Quick Links">Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="../index.html" data-pt="Início" data-en="Home">Início</a></li>
+                        <li><a href="../index.html#services" data-pt="Serviços" data-en="Services">Serviços</a></li>
+                        <li><a href="products.html" data-pt="Produtos" data-en="Products">Produtos</a></li>
+                        <li><a href="gallery.html" data-pt="Galeria" data-en="Gallery">Galeria</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-pt="Contato" data-en="Contact">Contato</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-phone"></i> +258 123 456 789</li>
+                        <li><i class="fas fa-envelope"></i> info@ksbold.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Maputo, Moçambique</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-pt="Redes Sociais" data-en="Social Media">Redes Sociais</h4>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 KSBold. <span data-pt="Todos os direitos reservados." data-en="All rights reserved.">Todos os direitos reservados.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/+258123456789" target="_blank" class="whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
+

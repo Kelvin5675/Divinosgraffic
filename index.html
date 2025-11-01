@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divinos Graffic</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home"> <img src="images/Logo Official 2019 E 2024Cor caregada.png"
+                            alt="Logo Gráfica Divinos" class="logo-img"></a>
+                </div>
+
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link" data-pt="Início" data-en="Home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link" data-pt="Serviços" data-en="Services">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#momentos" class="nav-link" data-pt="Momentos" data-en="Moments">Momentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pages/about.html" class="nav-link" data-pt="Sobre Nós" data-en="About Us">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pages/contact.html" class="nav-link" data-pt="Contato" data-en="Contact">Contato</a>
+                    </li>
+
+                </ul>
+                <div class="nav-extras">
+                    <div class="language-selector">
+                        <button id="lang-toggle" class="lang-btn">
+                            <span id="current-lang">PT</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="lang-dropdown" id="lang-dropdown">
+                            <button data-lang="pt">Português</button>
+                            <button data-lang="en">English</button>
+                        </div>
+                    </div>
+                    <div class="hamburger" id="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-pt="Criatividade que Transforma Momentos"
+                    data-en="Creativity that Transforms Moments">
+                    Criatividade que Transforma Momentos
+                </h1>
+                <p class="hero-subtitle"
+                    data-pt="Especializados em prestar serviços de gráfica e serigrafia de alta qualidade."
+                    data-en="Specialized in high-quality graphic and screen printing services">
+                    Especializados em prestar serviços de gráfica e serigrafia de alta qualidade.
+                </p>
+                <div class="hero-buttons">
+                    <a href="pages/products.html" class="btn btn-primary" data-pt="Ver Produtos"
+                        data-en="View Products">Ver Produtos</a>
+                    <a href="pages/contact.html" class="btn btn-secondary" data-pt="Fale Conosco"
+                        data-en="Contact Us">Fale Conosco</a>
+                </div>
+            </div>
+            <!-- Lado Direito - Carrossel -->
+            <div class="carousel-wrapper">
+                <div class="carousel-container1">
+                    <button class="nav-arrow left">‹</button>
+                    <div class="carousel-track1">
+                        <div class="card" data-index="0">
+                            <img src="images/Exposição principal/exposição (1).jpg" alt="chavena da super top" />
+                        </div>
+                        <div class="card" data-index="1">
+                            <img src="images/Exposição principal/exposição (2).jpg" alt="quadro de marmore" />
+                        </div>
+                        <div class="card" data-index="2">
+                            <img src="images/Exposição principal/exposição (3).jpg"
+                                alt="termo e caderno personalizado" />
+                        </div>
+                        <div class="card" data-index="3">
+                            <img src="images/Exposição principal/exposição (4).jpg"
+                                alt="Neyma nacimo com quadro da Divinos" />
+                        </div>
+                        <div class="card" data-index="4">
+                            <img src="images/Exposição principal/exposição (5).jpg"
+                                alt="quadro de marmore da Tamyres moiane" />
+                        </div>
+                    </div>
+                    <button class="nav-arrow right">›</button>
+                </div>
+
+                <div class="member-info">
+                    <h2 class="member-name">Produto 1</h2>
+                    <p class="member-role">Mais vendido</p>
+                </div>
+
+                <div class="dots">
+                    <div class="dot active" data-index="0"></div>
+                    <div class="dot" data-index="1"></div>
+                    <div class="dot" data-index="2"></div>
+                    <div class="dot" data-index="3"></div>
+                    <div class="dot" data-index="4"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    </div>
+    <div class="hero-scroll">
+        <div class="scroll-indicator">
+            <span data-pt="Role para baixo" data-en="Scroll down">Role para baixo</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </div>
+    </section>
+
+    <!-- Services Section -->
+    <!--<section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-pt="Nossos Serviços" data-en="Our Services">Nossos Serviços</h2>
+                <p class="section-subtitle"
+                    data-pt="Oferecemos uma gama completa de serviços criativos e personalizados"
+                    data-en="We offer a complete range of creative and personalized services">
+                    Oferecemos uma gama completa de serviços criativos e personalizados
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <h3 data-pt="Edição de Fotos de Pezinhos" data-en="Baby Footprint Photo Editing">Edição de Fotos de
+                        Pezinhos</h3>
+                    <p data-pt="Transformamos as fotos dos pezinhos do seu bebê em memórias artísticas únicas e emocionantes"
+                        data-en="We transform your baby's footprint photos into unique and emotional artistic memories">
+                        Transformamos as fotos dos pezinhos do seu bebê em memórias artísticas únicas e emocionantes
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3 data-pt="Foto Inteira Personalizada" data-en="Full Custom Photo">Foto Inteira Personalizada</h3>
+                    <p data-pt="Criamos composições fotográficas completas e personalizadas para momentos especiais"
+                        data-en="We create complete and personalized photographic compositions for special moments">
+                        Criamos composições fotográficas completas e personalizadas para momentos especiais
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-picture-o"></i>
+                    </div>
+                    <h3 data-pt="Quadros Personalizados" data-en="Custom Frames">Quadros Personalizados</h3>
+                    <p data-pt="Quadros únicos em diversos tamanhos, do A5 ao maior formato, para decorar seus espaços"
+                        data-en="Unique frames in various sizes, from A5 to the largest format, to decorate your spaces">
+                        Quadros únicos em diversos tamanhos, do A5 ao maior formato, para decorar seus espaços
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3 data-pt="Artigos Físicos" data-en="Physical Items">Artigos Físicos</h3>
+                    <p data-pt="Produtos personalizados para bebês e adultos, criados com carinho e atenção aos detalhes"
+                        data-en="Personalized products for babies and adults, created with care and attention to detail">
+                        Produtos personalizados para bebês e adultos, criados com carinho e atenção aos detalhes
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-pt="Nossos Serviços" data-en="Our Services">Nossos Serviços</h2>
+                <p class="section-subtitle"
+                    data-pt="Oferecemos uma gama completa de serviços criativos e personalizados"
+                    data-en="We offer a complete range of creative and personalized services">
+                    Oferecemos uma gama completa de serviços criativos e personalizados
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Categoria 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <h3 data-pt="Impressão & Personalização" data-en="Printing & Customization">Impressão &
+                        Personalização</h3>
+                    <p data-pt="
+                    • Impressão de fotografias e quadros personalizados
+                    • Convites para casamentos
+                    • Placas personalizadas
+                    • Banners e Roll Up
+                    • Vinil e Contravision
+                    • Flyers e folhetos
+                " data-en="
+                    • Printing of personalized photos and frames
+                    • Wedding invitations
+                    • Custom signs
+                    • Banners and roll ups
+                    • Vinyl and contravision
+                    • Flyers and brochures
+                ">
+                        • Impressão de fotografias e quadros personalizados
+                        • Convites para casamentos
+                        • Placas personalizadas
+                        • Banners e Roll Up
+                        • Vinil e Contravision
+                        • Flyers e folhetos
+                    </p>
+                </div>
+
+                <!-- Categoria 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 data-pt="Design & Produção Visual" data-en="Design & Visual Production">Design & Produção Visual
+                    </h3>
+                    <p data-pt="
+                    • Molduras e quadros em foam
+                    • Telas decorativas
+                    • Molduras de vidro e de pedra
+                    • Chavenas e chaveiros personalizados
+                    • Estampagem de tecidos
+                    • Criação de logotipos e identidade visual
+                " data-en="
+                    • Frames and foam boards
+                    • Decorative canvases
+                    • Glass and stone frames
+                    • Personalized mugs and keychains
+                    • Fabric printing
+                    • Logo and brand identity creation
+                ">
+                        • Molduras e quadros em foam
+                        • Telas decorativas
+                        • Molduras de vidro e de pedra
+                        • Chavenas e chaveiros personalizados
+                        • Estampagem de tecidos
+                        • Criação de logotipos e identidade visual
+                    </p>
+                </div>
+
+                <!-- Categoria 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3 data-pt="Material de Escritório & Identidade Corporativa"
+                        data-en="Office Material & Corporate Identity">Material de Escritório & Identidade Corporativa
+                    </h3>
+                    <p data-pt="
+                    • Cartões de visita
+                    • Papel timbrado
+                    • Bordados e carimbos
+                    • VD’s e recibos
+                    • Livros de fatura
+                    • Cartazes e posters
+                " data-en="
+                    • Business cards
+                    • Letterheads
+                    • Embroidery and stamps
+                    • Receipts and vouchers
+                    • Invoice books
+                    • Posters and signage
+                ">
+                        • Cartões de visita
+                        • Papel timbrado
+                        • Bordados e carimbos
+                        • VD’s e recibos
+                        • Livros de fatura
+                        • Cartazes e posters
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carousel Section -->
+    <section class="carousel-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-pt="Nossos Trabalhos" data-en="Our Work">Nossos Trabalhos</h2>
+                <p class="section-subtitle" data-pt="Veja alguns dos nossos trabalhos mais especiais"
+                    data-en="See some of our most special projects">
+                    Veja alguns dos nossos trabalhos mais especiais
+                </p>
+            </div>
+            <div class="carousel-container">
+                <div class="carousel-track" id="carousel-track">
+                    <div class="carousel-slide">
+                        <img src="images/Exposição 2/exposi (1).jpg" alt="Trabalho 1">
+                        <div class="slide-overlay">
+                            <h4>Chavena Personalizada </h4>
+                            <p>Trabalho espeecial para familias</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/Exposição 2/exposi (2).jpg" alt="Trabalho 2">
+                        <div class="slide-overlay">
+                            <h4>Estampa de camisa</h4>
+                            <p>Design exclusivo e individual</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/Exposição 2/exposi (3).jpg" alt="Trabalho 3">
+                        <div class="slide-overlay">
+                            <h4>Aplicação de Vinil</h4>
+                            <p>Trabalhos únicos e especiais</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/Exposição 2/exposi (4).jpg" alt="Trabalho 4">
+                        <div class="slide-overlay">
+                            <h4>Bordado Personalizado</h4>
+                            <p>Composição artística</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/Exposição 2/exposi (5).jpg" alt="Trabalho 1">
+                        <div class="slide-overlay">
+                            <h4>Carteira Personalizada</h4>
+                            <p>Edição especial e única</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/Exposição 2/exposi (6).jpg" alt="Trabalho 2">
+                        <div class="slide-overlay">
+                            <h4>Sacola Personalizada</h4>
+                            <p>Design exclusivo para família</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/Exposição 2/exposi (7).jpg" alt="Trabalho 3">
+                        <div class="slide-overlay">
+                            <h4>Calendário</h4>
+                            <p>Produtos únicos e especiais</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/Exposição 2/exposi (8).jpg" alt="Trabalho 4">
+                        <div class="slide-overlay">
+                            <h4>Caixa Personalizada</h4>
+                            <p>Composição artística completa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <!--<section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-pt="Nossa Equipe" data-en="Our Team">Nossa Equipe</h2>
+                <p class="section-subtitle" data-pt="Conheça os profissionais que tornam tudo possível" data-en="Meet the professionals who make it all possible">
+                    Conheça os profissionais que tornam tudo possível
+                </p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="images/baby_feet_1.jpg" alt="Membro da equipe">
+                    </div>
+                    <div class="team-info">
+                        <h3>Ana Silva</h3>
+                        <p class="team-role" data-pt="Designer Gráfica" data-en="Graphic Designer">Designer Gráfica</p>
+                        <div class="team-social">
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="images/custom_frame_1.png" alt="Membro da equipe">
+                    </div>
+                    <div class="team-info">
+                        <h3>Carlos Santos</h3>
+                        <p class="team-role" data-pt="Fotógrafo" data-en="Photographer">Fotógrafo</p>
+                        <div class="team-social">
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="images/baby_articles_1.jpg" alt="Membro da equipe">
+                    </div>
+                    <div class="team-info">
+                        <h3>Maria Costa</h3>
+                        <p class="team-role" data-pt="Artesã" data-en="Artisan">Artesã</p>
+                        <div class="team-social">
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <section id="momentos" class="momentos-section">
+        <h2 class="section-title">Momentos</h2>
+        <div class="momentos-grid">
+            <div class="momento-card">
+                <video src="videos/video1 (1).mp4" autoplay muted loop playsinline></video>
+            </div>
+            <div class="momento-card">
+                <video src="videos/video1 (2).mp4" autoplay muted loop playsinline></video>
+            </div>
+            <div class="momento-card">
+                <video src="videos/video1 (6).mp4" autoplay muted loop playsinline></video>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 data-pt="Pronto para Criar Algo Especial?" data-en="Ready to Create Something Special?">Pronto para
+                    Criar Algo Especial?</h2>
+                <p data-pt="Entre em contato conosco e vamos transformar suas ideias em realidade"
+                    data-en="Contact us and let's turn your ideas into reality">
+                    Entre em contato conosco e vamos transformar suas ideias em realidade
+                </p>
+                <div class="cta-buttons">
+                    <a href="pages/contact.html" class="btn btn-primary" data-pt="Fazer Pedido"
+                        data-en="Place Order">Fazer Pedido</a>
+                    <a href="https://wa.me/+258828800311" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        <span data-pt="WhatsApp" data-en="WhatsApp">WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>Divinos Graffic</h3>
+                        <p data-pt="Criatividade que transforma momentos especiais em memórias eternas"
+                            data-en="Creativity that transforms special moments into eternal memories">
+                            Criatividade que transforma momentos especiais em memórias eternas
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 data-pt="Links Rápidos" data-en="Quick Links">Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home" data-pt="Início" data-en="Home">Início</a></li>
+                        <li><a href="#services" data-pt="Serviços" data-en="Services">Serviços</a></li>
+                        <li><a href="pages/about.html" data-pt="Sobre Nós" data-en="About Us">Sobre Nós</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-pt="Contato" data-en="Contact">Contato</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-phone"></i> +258 82 880 0311</li>
+                        <li><i class="fas fa-phone"></i> +258 84 880 0311</li>
+                        <li><i class="fas fa-envelope"></i> info.divinosgraffic@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Maputo Central B, na zona da Pandora</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-pt="Redes Sociais" data-en="Social Media">Redes Sociais</h4>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/Divinosgraffic" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/divinos_graffic?igsh=MTVvYjB5ZHltazc1aw==" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/258828800311" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Divinos Graffic. <span data-pt="Todos os direitos reservados."
+                        data-en="All rights reserved.">Todos os direitos reservados.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/+258828800311?text=Olá%2C+gostaria+de+saber+mais+sobre+os+vossos+serviços" target="_blank"
+            class="whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    
+    <script src="js/script.js"></script>
+
+    <div id="videoModal">
+        <span id="closeVideo">&times;</span>
+        <video id="modalVideo" controls></video>
+    </div>
+
+    <script>
+        const videos = document.querySelectorAll('.momento-card video');
+        const modal = document.getElementById('videoModal');
+        const modalVideo = document.getElementById('modalVideo');
+        const closeVideo = document.getElementById('closeVideo');
+
+        videos.forEach(video => {
+            video.addEventListener('click', () => {
+                modal.classList.add('active');
+                modalVideo.src = video.src;
+                modalVideo.muted = false;
+                modalVideo.play();
+            });
+        });
+
+        closeVideo.addEventListener('click', () => {
+            modal.classList.remove('active');
+            setTimeout(() => {
+                modalVideo.pause();
+                modalVideo.src = '';
+            }, 400); // tempo para a animação desaparecer suavemente
+        });
+
+        window.addEventListener('click', e => {
+            if (e.target === modal) {
+                modal.classList.remove('active');
+                setTimeout(() => {
+                    modalVideo.pause();
+                    modalVideo.src = '';
+                }, 400);
+            }
+        });
+    </script>
+</body>
+
+</html>

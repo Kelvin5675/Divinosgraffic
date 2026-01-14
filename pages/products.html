@@ -84,11 +84,14 @@
             <!-- Filter Buttons -->
             <div class="filter-buttons">
                 <button class="filter-btn active" data-filter="all" data-pt="Todos" data-en="All">Todos</button>
-                <button class="filter-btn" data-filter="decoração" data-pt="Decoração"
-                    data-en="decoration">Decoração</button>
-                <button class="filter-btn" data-filter="adult" data-pt="Adultos" data-en="Adults">Adultos</button>
-                <button class="filter-btn" data-filter="frames" data-pt="Quadros" data-en="Frames">Quadros</button>
-                <button class="filter-btn" data-filter="photos" data-pt="Fotos" data-en="Photos">Fotos</button>
+                <button class="filter-btn" data-filter="decoração" data-pt="Quadros & Molduras Decorativas"
+                    data-en="Frames & Decorative Frames">Quadros & Molduras Decorativas</button>
+                <button class="filter-btn" data-filter="Canecas" data-pt="Canecas & Chávenas Personalizadas" 
+                    data-en="">Canecas & Chávenas Personalizadas</button>
+                <button class="filter-btn" data-filter="Papelaria" data-pt="Papelaria & Produtos Personalizados"
+                    data-en="">Papelaria & Produtos Personalizados</button>
+                <button class="filter-btn" data-filter="Gráficos" data-pt="Impressão & Serviços Gráficos" 
+                    data-en="">Impressão & Serviços Gráficos</button>
             </div>
 
             <!-- Products Grid -->
@@ -97,142 +100,210 @@
                 <div class="product-card" data-category="decoração">
                     <div class="product-image">
                         <img src="../images/Produtos/A0 quadro foam .jpg" alt="quadro foam A0">
-                        <div class="product-overlay">
-                            <a href="product-detail.html?id=1" class="btn btn-primary" data-pt="Ver Detalhes"
-                                data-en="View Details">Ver Detalhes</a>
-                        </div>
                     </div>
                     <div class="product-info">
-                        <h3 data-pt="Quadro Foam A0" data-en="Foam Board Frame A0">Quadro Foam A0</h3>
-                        <p data-pt="" data-en="Transform your baby's footprints into art">
-                            
+                        <h3 data-pt="Quadro Foam Personalizado (A0 • A1 • A2 • A3)" data-en="Foam Board Frame A0">Quadro Foam Personalizado (A0 • A1 • A2 • A3)</h3>
+                        <p data-pt="Transforme momentos especiais em verdadeiras obras de arte 🎨✨"
+                            data-en="">
+                            Transforme momentos especiais em verdadeiras obras de arte 🎨✨
                         </p>
                         <div class="product-price">
-                            <span class="price">500 MT</span>
+                            <span class="price">5000 MT</span>
                         </div>
+                        <button onclick="openModal(this)" class="btn-detalhes" data-nome="Quadros Foam"
+                            data-preco="5000 MT"
+                            data-descricao="
+                                            Os <strong>Quadros Foam Personalizados</strong> são produzidos com impressão de alta qualidade,
+                                            cores vivas e excelente acabamento. Disponíveis nos tamanhos A0, A1, A2 e A3,
+                                            são ideais para decoração de casas, escritórios, eventos, aniversários, 
+                                            casamentos e espaços comerciais.<br><br>
+
+                                            ✔️ Material leve e resistente<br>
+                                            ✔️ Impressão nítida e durável<br>
+                                            ✔️ Personalização total (foto, frase, logotipo)<br>
+                                            ✔️ Fácil instalação na parede<br>
+
+                                            📐 Tamanhos disponíveis: A0, A1, A2, A3"
+                            data-imagem="../images/Produtos/A0 quadro foam .jpg-../images/Produtos/A2 quadro Foam borda preta.jpg-../images/Produtos/A1 quadro foam.jpg-../images/Produtos/A3 quadro foam , moldura dourada.jpg"
+                            data-whatsapp="https://wa.me/258828800311?text=Quero%20comprar%20um%20Quadro%20Foam">
+                            Ver detalhes
+                        </button>
                     </div>
                 </div>
 
                 <div class="product-card" data-category="decoração">
                     <div class="product-image">
-                        <img src="../images/Produtos/A1 quadro foam.jpg" alt="quadro foam A1">
-                        <div class="product-overlay">
-                            <a href="product-detail.html?id=2" class="btn btn-primary" data-pt="Ver Detalhes"
-                                data-en="View Details">Ver Detalhes</a>
-                        </div>
+                        <img src="../images/Produtos/quadro decorativo.jpg" alt="quadro foam">
+                        
                     </div>
                     <div class="product-info">
-                        <h3 data-pt="Quadro foam A1" data-en="Foam Board Frame A1">Quadro foam A1</h3>
-                        <p data-pt="Produtos únicos e personalizados para bebês"
-                            data-en="Unique and personalized products for babies">
-                            
+                        <h3 data-pt="Quadros Decorativos & Certificados" data-en="Foam Board Frame A1">Quadros Decorativos & Certificados</h3>
+                        <p data-pt="Ideais para diplomas, certificados, homenagens ou decoração artística.🏡📜"
+                            data-en="">
+                             Ideais para diplomas, certificados, homenagens ou decoração artística.🏡📜
                         </p>
                         <div class="product-price">
-                            <span class="price">300 MT</span>
+                            <span class="price">700 MT</span>
                         </div>
+                        <button onclick="openModal(this)" class="btn-detalhes" data-nome="Quadros Decorativos & Certificados"
+                            data-preco="700 MT"
+                            data-descricao="Os Quadros Decorativos e de Certificado são perfeitos para valorizar ambientes com elegância e significado 🏡📜.<br>
+                                            Ideais para diplomas, certificados, homenagens ou decoração artística.<br><br>
+
+                                            ✔️ Design moderno e profissional<br>
+                                            ✔️ Ideal para escritórios, escolas e empresas<br>
+                                            ✔️ Acabamento limpo e sofisticado"
+                            data-imagem="../images/Produtos/quadro decorativo.jpg-../images/Produtos/quadro de certificado.jpg-../images/Produtos/quadros complementares.jpg-../images/Produtos/quadro A5.jpg"
+                            data-whatsapp="https://wa.me/258828800311?text=Quero%20comprar%20um%20Quadro">
+                            Ver detalhes
+                        </button>
                     </div>
                 </div>
 
-                <!-- Adult Products -->
                 <div class="product-card" data-category="decoração">
                     <div class="product-image">
-                        <img src="../images/Produtos/A2 quadro Foam borda preta.jpg" alt="Artigos para Adultos">
-                        <div class="product-overlay">
-                            <a href="product-detail.html?id=3" class="btn btn-primary" data-pt="Ver Detalhes"
-                                data-en="View Details">Ver Detalhes</a>
-                        </div>
+                        <img src="../images/Produtos/moldura de mármore.jpg" alt="molduras premium">
+                        
                     </div>
                     <div class="product-info">
-                        <h3 data-pt="Artigos para Adultos" data-en="Adult Items">Artigos para Adultos</h3>
-                        <p data-pt="Produtos personalizados para adultos" data-en="Personalized products for adults">
-                            
+                        <h3 data-pt="Molduras Premium (Vidro & Mármore)" data-en="">Molduras Premium (Vidro & Mármore)</h3>
+                        <p data-pt="As Molduras Premium da Divinos Gráfica elevam qualquer imagem a outro nível 💎🖼️."
+                             data-en="">
+                            As Molduras Premium da Divinos Gráfica elevam qualquer imagem a outro nível 💎🖼️.
                         </p>
                         <div class="product-price">
-                            <span class="price">400 MT</span>
+                            <span class="price">1500 MT</span>
                         </div>
+                        <button onclick="openModal(this)" class="btn-detalhes" data-nome="Molduras Premium (Vidro & Mármore)"
+                            data-preco="1500 MT"
+                            data-descricao="As Molduras Premium da Divinos Gráfica elevam qualquer imagem a outro nível 💎🖼️.<br>
+                                            Produzidas com materiais de alta qualidade, estão disponíveis em vidro e efeito mármore, com formatos modernos e elegantes.<br><br>
+
+                                            ✔️ Vidro transparente e resistente<br>
+                                            ✔️ Mármore (normal, redondo e retangular)<br>
+                                            ✔️ Ideal para fotos, quadros e certificados"
+                            data-imagem="../images/Produtos/moldura de mármore.jpg-../images/Produtos/moldura de vidro.jpg-../images/Produtos/moldura de vidro 1.jpg-../images/Produtos/moldura A5.jpg-../images/Produtos/moldura de mármore redondo.jpg-../images/Produtos/moldura de vidro e chávena.jpg-../images/Produtos/moldura de mármore retangular.jpg"
+                            data-whatsapp="https://wa.me/258828800311?text=Quero%20comprar%20a%20Moldura%20Premium">
+                            Ver detalhes
+                        </button>
                     </div>
                 </div>
 
-                <!-- Frames -->
-                <div class="product-card" data-category="frames">
+                <!-- Canecas -->
+                <div class="product-card" data-category="Canecas">
                     <div class="product-image">
-                        <img src="../images/Produtos/A3 quadro foam , moldura dourada.jpg" alt="Quadros Personalizados">
+                        <img src="../images/Produtos/chávena personalizada.jpg" alt="Chávenas & Canecas Personalizadas">
                     </div>
                     <div class="product-info">
-                        <h3 data-pt="Quadros Personalizados A5" data-en="Custom Frames A5">Quadros Personalizados A5
+                        <h3 data-pt="Chávenas & Canecas Personalizadas" data-en="">Chávenas & Canecas Personalizadas
                         </h3>
-                        <p data-pt="Quadros únicos em tamanho A5" data-en="Unique frames in A5 size">
-                            
-                        </p>
-                        <div class="product-price">
-                            <span class="price">250 MT</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="product-card" data-category="frames">
-                    <div class="product-image">
-                        <img src="../images/Produtos/book.jpg" alt="Quadros Personalizados">
-                    </div>
-                    <div class="product-info">
-                        <h3 data-pt="Quadros Personalizados A4" data-en="Custom Frames A4">Quadros Personalizados A4
-                        </h3>
-                        <p data-pt="Quadros únicos em tamanho A4" data-en="Unique frames in A4 size">
-                            
+                        <p data-pt="As Chávenas e Canecas Personalizadas são perfeitas para brindes, uso pessoal ou ofertas corporativas 🎁☕"
+                            data-en="">
+                            As Chávenas e Canecas Personalizadas são perfeitas para brindes, uso pessoal ou ofertas corporativas 🎁☕
                         </p>
                         <div class="product-price">
                             <span class="price">350 MT</span>
                         </div>
-                        <button onclick="openModal(this)" class="btn-detalhes" data-nome="Quadro Foam A0"
-                            data-preco="5000 MT"
-                            data-descricao="Transforme os pezinhos do seu bebé em arte personalizada."
-                            data-imagem="../images/Produtos/book.jpg,../images/Produtos/book1.jpg,../images/Produtos/chávena.jpg"
-                            data-whatsapp="https://wa.me/258828800311?text=Quero%20comprar%20o%20Quadro%20Foam%20A0">
+                        <button onclick="openModal(this)" class="btn-detalhes" data-nome="Chávenas & Canecas Personalizadas"
+                            data-preco="350 MT"
+                            data-descricao="Personalize com fotos, frases, logotipos ou artes exclusivas.<br><br>
+
+                                            ✔️ Impressão resistente ao uso diário<br>
+                                            ✔️ Ideal para empresas, eventos e presentes<br>
+                                            ✔️ Modelos variados e criativos"
+                            data-imagem="../images/Produtos/chávena .jpg-../images/Produtos/chávena 1.jpg-../images/Produtos/chávena 2.jpg-../images/Produtos/caneca de cerveja.jpg-../images/Produtos/chávena personalizada.jpg-../images/Produtos/chávena personalizada1.jpg-../images/Produtos/chávena.jpg-../images/Produtos/chávenas personalizadas.jpg"
+                            data-whatsapp="https://wa.me/258828800311?text=Quero%20comprar%20a%20Chávena%20Personalizada">
+                            Ver detalhes
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="Papelaria">
+                    <div class="product-image">
+                        <img src="../images/Produtos/caderno.jpg" alt="cadernos personalizados">
+                    </div>
+                    <div class="product-info">
+                        <h3 data-pt="Papelaria & Brindes Personalizados" data-en="">Papelaria & Brindes Personalizados
+                        </h3>
+                        <p data-pt="A Papelaria Personalizada da Divinos Gráfica une utilidade, criatividade e identidade 📒✨" 
+                           data-en="">
+                            A Papelaria Personalizada da Divinos Gráfica une utilidade, criatividade e identidade 📒✨
+                        </p>
+                        <div class="product-price">
+                            <span class="price">1200 MT</span>
+                        </div>
+                        <button onclick="openModal(this)" class="btn-detalhes" data-nome="Papelaria & Brindes Personalizados"
+                            data-preco="1200 MT"
+                            data-descricao="A Papelaria Personalizada da Divinos Gráfica une utilidade, criatividade e identidade 📒✨.<br>
+                                            Ideal para escolas, empresas, eventos e presentes personalizados.
+                                            <br><br>
+                                            ✔️ Personalização completa<br>
+                                            ✔️ Ideal para brindes corporativos<br>
+                                            ✔️ Design exclusivo e profissional"
+                            data-imagem="../images/Produtos/book.jpg-../images/Produtos/book1.jpg-../images/Produtos/Box personalizada.jpg-../images/Produtos/caderno.jpg-../images/Produtos/caixa de padrinhos.jpg-../images/Produtos/mini térmo personalizado.jpg"
+                            data-whatsapp="https://wa.me/258828800311?text=Quero%20comprar%20um%20brinde%20Personalizado">
                             Ver detalhes
                         </button>
 
                     </div>
                 </div>
 
-                <div class="product-card" data-category="frames">
+                <div class="product-card" data-category="Gráficos">
                     <div class="product-image">
-                        <img src="../images/Produtos/book1.jpg" alt="Quadros Personalizados">
-                        <div class="product-overlay">
-                            <a href="product-detail.html?id=6" class="btn btn-primary" data-pt="Ver Detalhes"
-                                data-en="View Details">Ver Detalhes</a>
-                        </div>
+                        <img src="../images/Produtos/impressão DTF.jpg" alt="impressão profissional">
+                        
                     </div>
                     <div class="product-info">
-                        <h3 data-pt="Quadros Personalizados A3" data-en="Custom Frames A3">Quadros Personalizados A3
+                        <h3 data-pt="Serviços de Impressão Profissional" data-en="">Serviços de Impressão Profissional
                         </h3>
-                        <p data-pt="Quadros únicos em tamanho A3" data-en="Unique frames in A3 size">
-                            Quadros únicos em tamanho A3
+                        <p data-pt="Oferecemos serviços de impressão de alta qualidade, utilizando tecnologia moderna para garantir resultados duradouros e profissionais 👕🖨️" data-en="">
+                            Oferecemos serviços de impressão de alta qualidade, utilizando tecnologia moderna para garantir resultados duradouros e profissionais 👕🖨️
                         </p>
                         <div class="product-price">
-                            <span class="price">500 MT</span>
+                            <span class="price">150 MT</span>
                         </div>
+                        <button onclick="openModal(this)" class="btn-detalhes" data-nome="Serviços de Impressão Profissional"
+                            data-preco="150 MT"
+                            data-descricao="Oferecemos serviços de impressão de alta qualidade, utilizando tecnologia moderna para garantir resultados duradouros e profissionais 👕🖨️.
+                                            <br><br>
+                                            ✔️ Impressão DTF para tecidos<br>
+                                            ✔️ Ideal para camisetas e vestuário<br>
+                                            ✔️ Impressão offset para grandes volumes<br>
+                                            ✔️ Cores vivas e excelente definição"
+                            data-imagem="../images/Produtos/impressão DTF camisa.jpg-../images/Produtos/Maquina de impressão de camisetas DTF.jpg-../images/Produtos/impressão DTF.jpg"
+                            data-whatsapp="https://wa.me/258828800311?text=Preciso%20de%20um%20serviço%20de%20impressão%20profissional">
+                            Ver detalhes
+                        </button>
                     </div>
                 </div>
 
-                <!-- Photos -->
-                <div class="product-card" data-category="photos">
+                
+                <div class="product-card" data-category="Gráficos">
                     <div class="product-image">
-                        <img src="../images/Produtos/Box personalizada.jpg" alt="Foto Inteira Personalizada">
-                        <div class="product-overlay">
-                            <a href="product-detail.html?id=7" class="btn btn-primary" data-pt="Ver Detalhes"
-                                data-en="View Details">Ver Detalhes</a>
-                        </div>
+                        <img src="../images/Produtos/Maquina de impressão de vinil.jpg" alt="Tecnologia & Equipamentos Gráficos">
+                        
                     </div>
                     <div class="product-info">
-                        <h3 data-pt="Foto Inteira Personalizada" data-en="Full Custom Photo">Foto Inteira Personalizada
+                        <h3 data-pt="Tecnologia & Equipamentos Gráficos" data-en="">Tecnologia & Equipamentos Gráficos
                         </h3>
-                        <p data-pt="Composição fotográfica completa e única"
-                            data-en="Complete and unique photographic composition">
-                            Composição fotográfica completa e única
+                        <p data-pt="A Divinos Gráfica trabalha com máquinas modernas e tecnologia de ponta, garantindo qualidade superior em todos os serviços 🚀⚙️."
+                            data-en="">
+                            A Divinos Gráfica trabalha com máquinas modernas e tecnologia de ponta, garantindo qualidade superior em todos os serviços 🚀⚙️.
                         </p>
                         <div class="product-price">
-                            <span class="price">600 MT</span>
+                            <span class="price"></span>
                         </div>
+                        <button onclick="openModal(this)" class="btn-detalhes" data-nome="Tecnologia & Equipamentos Gráficos"
+                            data-preco=""
+                            data-descricao="A Divinos Gráfica trabalha com máquinas modernas e tecnologia de ponta, garantindo qualidade superior em todos os serviços 🚀⚙️.
+                                            <br><br>
+                                            ✔️ Equipamentos de última geração<br>
+                                            ✔️ Processos eficientes e sustentáveis<br>
+                                            ✔️ Resultados consistentes e profissionais"
+                            data-imagem="../images/Produtos/Maquina de impressão de vinil.jpg-../images/Produtos/Maquina de impressão de camisetas DTF.jpg-../images/Produtos/Maquina impressão em offsset.jpg-../images/Produtos/Maquina de ultima geração de impressão colorida e preto e branco.jpg-../images/Produtos/Maquina de impressão em UV para pesonalização geral.jpg"
+                            data-whatsapp="https://wa.me/258828800311?text=Quero%20comprar%20o%20Quadro%20Foam%20A0">
+                            Ver detalhes
+                        </button>
                     </div>
                 </div>
             </div>
@@ -453,13 +524,13 @@
             const nome = btn.dataset.nome;
             const preco = btn.dataset.preco;
             const descricao = btn.dataset.descricao;
-            const imagens = btn.dataset.imagem.split(",");
+            const imagens = btn.dataset.imagem.split("-");
             const whatsapp = btn.dataset.whatsapp;
 
             // Texto
             document.getElementById("modalNome").textContent = nome;
             document.getElementById("modalPreco").textContent = preco;
-            document.getElementById("modalDescricao").textContent = descricao;
+            document.getElementById("modalDescricao").innerHTML = descricao;
             document.getElementById("modalWhatsapp").href = whatsapp;
 
             // Imagem principal

@@ -156,6 +156,7 @@
 }
 
 .story-image {
+    height: 300px;
     position: relative;
     border-radius: 20px;
     overflow: hidden;
@@ -164,7 +165,7 @@
 
 .story-image img {
     width: 100%;
-    height: 200px;
+    height: 110%;
     object-fit: cover;
     transition: transform 0.3s ease;
 }
